@@ -5,7 +5,7 @@ async function main() {
 
   await contract.waitForDeployment();
 
-  console.log("Contract Deployed at " + contract);
+  console.log("Contract Deployed at " + contract.target);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
