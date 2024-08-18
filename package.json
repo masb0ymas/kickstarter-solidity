@@ -1,0 +1,24 @@
+{
+  "name": "kickstarter-solidity",
+  "description": "Kickstarter Smart-Contract with Hardhat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean",
+    "compile": "npx hardhat compile",
+    "coverage": "npx hardhat coverage",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.ts --network sepolia",
+    "verify:sepolia": "npx hardhat verify --network sepolia",
+    "test": "npx hardhat test"
+  },
+  "author": "masb0ymas <n.fajri@mail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.8"
+  }
+}
