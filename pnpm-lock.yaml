@@ -7,10 +7,20 @@ settings:
 importers:
 
   .:
+    dependencies:
+      ethers:
+        specifier: ^6.13.2
+        version: 6.13.2
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
     devDependencies:
       '@nomicfoundation/hardhat-toolbox':
         specifier: ^5.0.0
         version: 5.0.0(p5o7etswzbwpcx7r2ahzrzhlhu)
+      '@types/lodash':
+        specifier: ^4.17.7
+        version: 4.17.7
       hardhat:
         specifier: ^2.22.8
         version: 2.22.8(ts-node@10.9.2(@types/node@22.4.0)(typescript@5.5.4))(typescript@5.5.4)
@@ -429,6 +439,9 @@ packages:
 
   '@types/glob@7.2.0':
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==, tarball: https://registry.npmjs.org/@types/glob/-/glob-7.2.0.tgz}
+
+  '@types/lodash@4.17.7':
+    resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==, tarball: https://registry.npmjs.org/@types/lodash/-/lodash-4.17.7.tgz}
 
   '@types/lru-cache@5.1.1':
     resolution: {integrity: sha512-ssE3Vlrys7sdIzs5LOxCzTVMsU7i9oa/IaW92wF32JFb3CVczqOkru2xspuKczHEbG3nvmPY7IFqVmGGHdNbYw==, tarball: https://registry.npmjs.org/@types/lru-cache/-/lru-cache-5.1.1.tgz}
@@ -2654,6 +2667,8 @@ snapshots:
     dependencies:
       '@types/minimatch': 5.1.2
       '@types/node': 22.4.0
+
+  '@types/lodash@4.17.7': {}
 
   '@types/lru-cache@5.1.1': {}
 

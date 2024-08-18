@@ -17,8 +17,13 @@
   "engines": {
     "node": ">=18.x"
   },
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/lodash": "^4.17.7",
     "hardhat": "^2.22.8"
   }
 }
